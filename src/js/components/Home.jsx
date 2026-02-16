@@ -7,7 +7,6 @@ import rigoImage from "../../img/rigo-baby.jpg";
 import Navbar from './Navbar';
 import Jumbotron from './Jumbotron';
 import Card from './Card';
-import CardTwo from "./CardTwo";
 import Footer from './Footer';
 
 //create your first component
