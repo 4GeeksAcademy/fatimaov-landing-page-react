@@ -6,7 +6,7 @@ import rigoImage from "../../img/rigo-baby.jpg";
 // import components
 import Navbar from './Navbar';
 import Jumbotron from './Jumbotron';
-import CardOne from './CardOne';
+import Card from './Card';
 import CardTwo from "./CardTwo";
 import Footer from './Footer';
 
@@ -20,10 +20,11 @@ const Home = () => {
 			<main className="container mb-5 pb-5 position-relative">
 				<Jumbotron />
 				<div className="row flex-wrap justify-content-center">
-					<CardOne />
-					<CardTwo />
-					<CardOne />
-					<CardTwo />
+					<Card content="Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quisquam enim nulla laudantium non illo natus" />
+					<Card content="ut dignissimos harum sed quis repellat ipsam saepe?" />
+					<Card content="Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quisquam enim nulla laudantium non illo natus" />
+					<Card content="ut dignissimos harum sed quis repellat ipsam saepe?" />
+					
 				</div>
 			</main>
 			<footer className="position-fixed bottom-0 w-100">

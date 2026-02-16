@@ -9,7 +9,7 @@ function CardTwo() {
                 </div>
                 <div className="card-body">
                     <h5 className="card-title h2 fw-bold">Card title</h5>
-                    <p className="card-text">ut dignissimos harum sed quis repellat ipsam saepe?</p>
+                    <p className="card-text"></p>
                 </div>
                 <div className="card-footer text-body-secondary bg-white">
                     <a href="#" className="btn btn-primary my-3 fw-bold">Find Out More!</a>
